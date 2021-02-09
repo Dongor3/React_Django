@@ -1,4 +1,4 @@
-React_Django
+Vue_Django
 ############
 
 .. image:: https://api.codacy.com/project/badge/Grade/30bb445295684f7fb8c152f91eea7fe1
@@ -8,7 +8,7 @@ React_Django
 Frontend
 --------
 
-1. Dirigirse a `shop_frontend`: `cd ./Django_React/frontend/shop_frontend/`.
+1. Dirigirse a `shop_frontend`: `cd ./Django_Vue/frontend/shop_frontend/`.
 2. Instalar las dependecias usandonpm: `npm install`.
 3. Iniciar el servidor : `npm start`.
 
