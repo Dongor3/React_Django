@@ -18,7 +18,7 @@ async function api(pokemon){
         let type = document.querySelector("#type");
         type.textContent = `${data.types[0].type.name} `;
         let pic2 = document.querySelector("#poketype");
-        pic2.src = `https://gitlab.com/gomezgleonardob/Pokedex_Devf/-/blob/main/asset/types/${data.types[0].type.name}.png`
+        pic2.src = `https://raw.githubusercontent.com/gomezgleonardob/Pokedex_Devf/master/asset/types/${data.types[0].type.name}.webp`
         let height = document.querySelector("#height");
         height.textContent = `Altura: ${(data.height/10)+ " m"}`;
         let weight = document.querySelector("#weight");
