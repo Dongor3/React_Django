@@ -1,7 +1,7 @@
 
 let pokemon;
 if(pokemon==undefined){
-    pokemon = "pikachu";
+    pokemon = "gastly";
     api(pokemon);
 } else {
     api(pokemon);
@@ -28,7 +28,6 @@ async function api(pokemon){
             let pokeName = document.querySelector("input").value.toLowerCase();
             api(pokeName);
         };
-    console.log(data);
     });
 }
 
