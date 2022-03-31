@@ -40,5 +40,11 @@ img.logo {
 
 img.pic {
     width: 50%;
+    height: 50%;
+}
+
+img.type-pokemon {
+    width: 50%;
+    height: 50%;
 }
 

@@ -15,8 +15,6 @@ async function api(pokemon){
         let pic = document.querySelector("#pokeimg");
         pic.src=  `https://img.pokemondb.net/artwork/${pokemon}.jpg` 
         document.getElementById("name").textContent = data.name;
-        let type = document.querySelector("#type");
-        type.textContent = `${data.types[0].type.name} `;
         let pic2 = document.querySelector("#poketype");
         pic2.src = `https://raw.githubusercontent.com/gomezgleonardob/Pokedex_Devf/master/asset/types/${data.types[0].type.name}.webp`
         let height = document.querySelector("#height");
